@@ -6,3 +6,6 @@ dist/
 # raw downloaded archives kept local only
 assets/base-referencias/*.zip
 assets/base-referencias/_incoming/
+
+# local validation screenshots
+assets/base-referencias/yume-home-screenshot-*.png
