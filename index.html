@@ -3,98 +3,164 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>YUME | Móveis Modulares para Airbnb</title>
-  <meta name="description" content="YUME cria soluções modulares para transformar imóveis em experiências prontas para morar, receber e rentabilizar." />
+  <title>YUME | Tiny House de luxo modular</title>
+  <meta name="description" content="YUME cria tiny houses modulares de luxo para quem busca design, liberdade, tecnologia e uma nova forma de viver ou investir." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="YUME início">YUME</a>
-    <nav aria-label="Navegação principal">
-      <a href="#solucoes">Soluções</a>
-      <a href="#airbnb">Airbnb</a>
-      <a href="#processo">Processo</a>
-      <a class="nav-cta" href="#contato">Quero meu projeto</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="YUME início">
+      <span>YUME</span>
+      <small>modular living</small>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" data-menu-toggle>Menu</button>
+    <nav class="nav" aria-label="Navegação principal" data-nav>
+      <a href="#experiencia">Experiência</a>
+      <a href="#video">Módulo</a>
+      <a href="#plantas">Plantas</a>
+      <a href="#investimento">Investimento</a>
+      <a class="nav-cta" href="#contato">Entrar na lista</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Móveis modulares • Airbnb • interiores inteligentes</p>
-        <h1>Ambientes prontos para encantar hóspedes e valorizar imóveis.</h1>
-        <p class="lead">A YUME desenvolve soluções modulares sob medida para studios, apartamentos e imóveis de temporada — com estética, praticidade e foco em rentabilidade.</p>
+    <section class="hero" aria-label="YUME lifestyle modular de luxo">
+      <picture>
+        <source srcset="assets/Home_inicial.png" type="image/png">
+        <img class="hero-media" src="assets/Home_inicial.png" alt="YUME tiny house modular de luxo integrada à natureza" onerror="this.classList.add('is-missing')" />
+      </picture>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Tiny house • luxo modular • experiência</p>
+        <h1>Não é uma casa compacta. É um novo jeito de viver.</h1>
+        <p class="lead">A YUME nasce para transformar módulos em desejo: arquitetura inteligente, acabamento premium e uma experiência pensada para morar, receber ou rentabilizar com elegância.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#contato">Falar com a YUME</a>
-          <a class="button secondary" href="#solucoes">Ver soluções</a>
+          <a class="button primary" href="#contato">Quero conhecer</a>
+          <a class="button ghost" href="#plantas">Ver plantas</a>
         </div>
       </div>
-      <div class="hero-card" aria-label="Resumo YUME">
-        <span>Projeto modular</span>
-        <strong>Design + função + operação</strong>
-        <p>Da ideia ao ambiente pronto para receber hóspedes ou morar melhor.</p>
+      <aside class="hero-specs" aria-label="Destaques YUME">
+        <div><strong>22m²</strong><span>Yume Studio</span></div>
+        <div><strong>27m²</strong><span>Yume Suite</span></div>
+        <div><strong>Premium</strong><span>pronto para lifestyle e investimento</span></div>
+      </aside>
+    </section>
+
+    <section class="manifesto" id="experiencia">
+      <p class="eyebrow">A proposta</p>
+      <h2>A YUME vende o que vem depois da chave: liberdade, presença e uma rotina com design.</h2>
+      <div class="manifesto-grid">
+        <p>O mercado não precisa de mais um módulo pronto. Precisa de uma marca que transforme tiny houses em objeto de desejo — com o mesmo magnetismo de uma Tesla: tecnologia silenciosa, design icônico e experiência superior.</p>
+        <p>Para morar, hospedar ou investir, cada YUME é pensada como produto de luxo: compacta no tamanho, enorme na sensação.</p>
       </div>
     </section>
 
-    <section class="section" id="solucoes">
-      <p class="eyebrow">O que fazemos</p>
-      <h2>Soluções para espaços compactos, bonitos e eficientes.</h2>
-      <div class="cards">
-        <article class="card">
-          <h3>Móveis modulares</h3>
-          <p>Peças planejadas para aproveitar cada centímetro com acabamento elegante e montagem inteligente.</p>
+    <section class="cinema" id="video">
+      <div class="section-heading">
+        <p class="eyebrow">Veja por dentro</p>
+        <h2>Um módulo desenhado para impressionar antes mesmo de abrir a porta.</h2>
+      </div>
+      <div class="video-frame">
+        <video controls playsinline poster="assets/Home_inicial.png">
+          <source src="assets/WhatsApp Video 2026-02-26 at 11.56.58.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+      </div>
+      <p class="asset-note">Quando o vídeo oficial estiver em `assets/WhatsApp Video 2026-02-26 at 11.56.58.mp4`, ele aparece aqui automaticamente.</p>
+    </section>
+
+    <section class="plants" id="plantas">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Duas plantas, dois desejos</p>
+        <h2>Escolha o formato ideal para o seu terreno, operação ou experiência.</h2>
+      </div>
+
+      <div class="plant-switch" role="tablist" aria-label="Plantas YUME">
+        <button class="plant-tab active" type="button" role="tab" aria-selected="true" data-plan="studio">
+          <span>Yume Studio</span><strong>22m²</strong>
+        </button>
+        <button class="plant-tab" type="button" role="tab" aria-selected="false" data-plan="suite">
+          <span>Yume Suite</span><strong>27m²</strong>
+        </button>
+      </div>
+
+      <div class="plant-stage">
+        <article class="plant-copy">
+          <p class="eyebrow" data-plan-label>Yume Studio • 22m²</p>
+          <h3 data-plan-title>Compacto, fotogênico e extremamente eficiente.</h3>
+          <p data-plan-description>Ideal para estadias curtas, terrenos menores e operações de Airbnb que precisam de beleza, conforto e giro rápido.</p>
+          <ul data-plan-features>
+            <li>Layout integrado com sensação ampla.</li>
+            <li>Experiência premium em metragem inteligente.</li>
+            <li>Perfeito para unidades seriadas em operação de hospedagem.</li>
+          </ul>
         </article>
-        <article class="card">
-          <h3>Studios e apartamentos</h3>
-          <p>Projetos pensados para rotina real: armazenamento, circulação, iluminação e conforto.</p>
-        </article>
-        <article class="card">
-          <h3>Projetos para investimento</h3>
-          <p>Ambientes que fotografam bem, hospedam bem e ajudam o imóvel a performar melhor.</p>
-        </article>
+        <figure class="plant-visual">
+          <img src="assets/yume-studio-planta.png" alt="Planta baixa Yume Studio 22m²" data-plan-image onerror="this.classList.add('is-missing')" />
+          <figcaption data-plan-caption>Planta Yume Studio — substituir por arquivo oficial.</figcaption>
+        </figure>
       </div>
     </section>
 
-    <section class="split" id="airbnb">
-      <div>
-        <p class="eyebrow">Airbnb ready</p>
-        <h2>Seu imóvel com cara de hospedagem profissional.</h2>
-      </div>
-      <div class="split-text">
-        <p>Unimos estética, durabilidade e operação: móveis adequados ao uso frequente, layout funcional, detalhes fotogênicos e escolhas práticas para limpeza e manutenção.</p>
-        <ul>
-          <li>Layout otimizado para estadias curtas.</li>
-          <li>Ambientes pensados para fotos e anúncios.</li>
-          <li>Materiais e soluções com foco em manutenção.</li>
-        </ul>
-      </div>
+    <section class="impact impact-dark">
+      <p>O luxo não está no excesso.</p>
+      <h2>Está em cada decisão invisível que faz o espaço parecer inevitável.</h2>
     </section>
 
-    <section class="section" id="processo">
-      <p class="eyebrow">Como funciona</p>
-      <h2>Um processo simples para sair do plano e chegar no ambiente pronto.</h2>
-      <ol class="steps">
-        <li><strong>Diagnóstico</strong><span>Entendemos imóvel, objetivo, público e orçamento.</span></li>
-        <li><strong>Conceito</strong><span>Definimos estilo, prioridades e soluções modulares.</span></li>
-        <li><strong>Projeto e proposta</strong><span>Organizamos escopo, prazos e próximos passos.</span></li>
-        <li><strong>Execução</strong><span>Acompanhamos produção, montagem e ajustes finais.</span></li>
-      </ol>
+    <section class="features" id="investimento">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Para viver ou rentabilizar</p>
+        <h2>Design emocional com raciocínio de produto.</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <span>01</span>
+          <h3>Marca desejável</h3>
+          <p>Uma estética premium que ajuda o imóvel a se destacar em fotos, anúncios e experiências reais.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Operação inteligente</h3>
+          <p>Layout, materiais e soluções pensadas para uso recorrente, manutenção simples e conforto contínuo.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Produto escalável</h3>
+          <p>Plantas claras para quem quer uma unidade exclusiva ou um conjunto de módulos para hospedagem.</p>
+        </article>
+      </div>
     </section>
 
     <section class="contact" id="contato">
-      <p class="eyebrow">Vamos conversar?</p>
-      <h2>Conte sobre seu imóvel ou projeto.</h2>
-      <p>Em breve, formulário e WhatsApp oficial da YUME entram aqui.</p>
-      <a class="button primary" href="mailto:contato@yume.com.br">contato@yume.com.br</a>
+      <div>
+        <p class="eyebrow">Primeira série YUME</p>
+        <h2>Entre na lista para receber plantas, valores e disponibilidade.</h2>
+        <p>Conte seu objetivo: moradia, Airbnb, terreno próprio ou investimento. A equipe YUME retorna com o melhor caminho.</p>
+      </div>
+      <form class="contact-form" name="contato-yume" action="mailto:contato@yume.com.br" method="post" enctype="text/plain">
+        <label>Nome<input name="nome" type="text" placeholder="Seu nome" required></label>
+        <label>E-mail<input name="email" type="email" placeholder="voce@email.com" required></label>
+        <label>WhatsApp<input name="whatsapp" type="tel" placeholder="(00) 00000-0000"></label>
+        <label>Interesse<select name="interesse">
+          <option>Yume Studio 22m²</option>
+          <option>Yume Suite 27m²</option>
+          <option>Projeto para Airbnb</option>
+          <option>Quero entender as opções</option>
+        </select></label>
+        <label class="full">Mensagem<textarea name="mensagem" rows="4" placeholder="Conte um pouco sobre seu terreno, cidade ou objetivo"></textarea></label>
+        <button class="button primary full" type="submit">Enviar interesse</button>
+      </form>
     </section>
   </main>
 
   <footer>
     <strong>YUME</strong>
-    <span>Móveis modulares e soluções para Airbnb.</span>
+    <span>Tiny houses modulares de luxo para viver, hospedar e investir.</span>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
