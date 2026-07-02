@@ -2,3 +2,7 @@
 node_modules/
 dist/
 .env
+
+# raw downloaded archives kept local only
+assets/base-referencias/*.zip
+assets/base-referencias/_incoming/

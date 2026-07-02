@@ -1,0 +1,46 @@
+# Inventário de referências YUME
+
+Origem: WeTransfer enviado por Sofi/Giovanni em 2026-07-02.
+
+- `CABANA COMPLETA 2.png` — 7.0 MB
+- `CABANA COMPLETA 3.png` — 5.7 MB
+- `CABANA COMPLETA 4.png` — 6.7 MB
+- `CABANA COMPLETA 5.png` — 7.2 MB
+- `CABANA COMPLETA 6.png` — 7.2 MB
+- `CABANA COMPLETA INT 1.png` — 9.8 MB
+- `CABANA COMPLETA INT 2.png` — 8.6 MB
+- `CABANA COMPLETA INT 3.png` — 9.8 MB
+- `CABANA COMPLETA INT 4.png` — 9.6 MB
+- `CABANA COMPLETA INT 5.png` — 8.3 MB
+- `CABANA COMPLETA INT 6.png` — 8.6 MB
+- `CABANA COMPLETA INT 7.png` — 7.9 MB
+- `CABANA COMPLETA INT 8.png` — 10.6 MB
+- `CABANA COMPLETA INT 9.png` — 10.6 MB
+- `CABANA SUÍTE 1.png` — 7.3 MB
+- `CABANA SUÍTE 2.png` — 6.1 MB
+- `CABANA SUÍTE 3.png` — 5.8 MB
+- `CABANA SUÍTE 4.png` — 5.9 MB
+- `CABANA SUÍTE 5.png` — 6.4 MB
+- `CABANA SUÍTE 6.png` — 6.3 MB
+- `CABANA SUÍTE INT 1.png` — 11.6 MB
+- `CABANA SUÍTE INT 2.png` — 10.4 MB
+- `CABANA SUÍTE INT 3.png` — 11.3 MB
+- `CABANA SUÍTE INT 4.png` — 11.5 MB
+- `CABANA SUÍTE INT 5.png` — 8.5 MB
+- `CABANA SUÍTE INT 6.png` — 8.3 MB
+- `CABANA SUÍTE INT 7.png` — 8.5 MB
+- `CONJUNTO 1A.png` — 6.4 MB
+- `CONJUNTO 1B.png` — 8.9 MB
+- `CONJUNTO 1C.png` — 7.3 MB
+- `CONJUNTO 1D.png` — 7.1 MB
+- `CONJUNTO 1E.png` — 6.0 MB
+- `CONJUNTO 2_A.png` — 5.7 MB
+- `CONJUNTO 2_B.png` — 5.7 MB
+- `CONJUNTO 2_C.png` — 5.7 MB
+- `CONJUNTO 2_D.png` — 5.7 MB
+- `Home_inicial.png` — 8.0 MB
+- `planta 1 quarto.png` — 2.2 MB
+- `planta studio.jpg` — 0.2 MB
+- `WhatsApp Video 2026-02-26 at 11.56.58.mp4` — 4.0 MB
+- `YUME TINY HOUSE.mp4` — 51.6 MB
+- `YUME-site.html` — 3.1 MB

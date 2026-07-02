@@ -12,7 +12,7 @@ const plans = {
     label: 'Yume Studio • 22m²',
     title: 'Compacto, fotogênico e extremamente eficiente.',
     description: 'Ideal para estadias curtas, terrenos menores e operações de Airbnb que precisam de beleza, conforto e giro rápido.',
-    image: 'assets/yume-studio-planta.png',
+    image: 'assets/yume-studio-planta.jpg',
     alt: 'Planta baixa Yume Studio 22m²',
     caption: 'Planta Yume Studio — 22m².',
     features: [
