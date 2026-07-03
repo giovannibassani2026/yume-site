@@ -194,6 +194,24 @@ const carouselSlides = {
       alt: 'Interior YUME Suite 27m² 6',
       label: 'Imagem 10',
       title: 'Suite 27m² • interior'
+    },
+    {
+      src: 'assets/carrossel-suite-27m/yume-suite-11-extra.jpg',
+      alt: 'YUME Suite 27m² imagem complementar 1',
+      label: 'Imagem 11',
+      title: 'Suite 27m² • detalhes'
+    },
+    {
+      src: 'assets/carrossel-suite-27m/yume-suite-12-extra.jpg',
+      alt: 'YUME Suite 27m² imagem complementar 2',
+      label: 'Imagem 12',
+      title: 'Suite 27m² • detalhes'
+    },
+    {
+      src: 'assets/carrossel-suite-27m/yume-suite-13-extra.jpg',
+      alt: 'YUME Suite 27m² imagem complementar 3',
+      label: 'Imagem 13',
+      title: 'Suite 27m² • detalhes'
     }
   ]
 };
