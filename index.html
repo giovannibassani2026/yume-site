@@ -28,7 +28,7 @@
 
   <main id="top">
     <section class="hero">
-      <img class="hero-media" src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/Home_inicial.png" alt="Tiny house modular YUME em paisagem aberta" />
+      <img class="hero-media" src="assets/Home_inicial.png" alt="Tiny house modular YUME em paisagem aberta" />
       <div class="hero-shade"></div>
       <div class="hero-content">
         <p class="eyebrow">Tiny house modular • luxo silencioso • natureza</p>
@@ -57,47 +57,6 @@
       </div>
     </section>
 
-    <section class="signature">
-      <figure class="signature-image">
-        <img src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/exterior-signature.png" alt="Exterior de módulo YUME com assinatura arquitetônica" />
-      </figure>
-      <div class="signature-copy">
-        <p class="eyebrow">Arquitetura como assinatura</p>
-        <h2>Um produto que fotografa bem, hospeda bem e envelhece com elegância.</h2>
-        <div class="pill-list">
-          <span>Steel frame</span>
-          <span>Acabamento premium</span>
-          <span>Operação Airbnb</span>
-          <span>Design autoral</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="video-section" id="video">
-      <div class="section-heading">
-        <p class="eyebrow">Por dentro do módulo</p>
-        <h2>Veja como a YUME transforma poucos metros em uma experiência completa.</h2>
-      </div>
-      <div class="video-frame">
-        <video controls playsinline preload="metadata" poster="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/interior-living.png">
-          <source src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/WhatsApp%20Video%202026-02-26%20at%2011.56.58.mp4" type="video/mp4" />
-          Seu navegador não suporta vídeo HTML5.
-        </video>
-      </div>
-    </section>
-
-    <section class="interiors">
-      <div class="section-heading narrow">
-        <p class="eyebrow">Interiores</p>
-        <h2>Luxo discreto: luz, madeira, textura e silêncio.</h2>
-      </div>
-      <div class="interior-grid">
-        <figure class="wide"><img src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/interior-living.png" alt="Living premium da YUME" /><figcaption>Living acolhedor com materialidade natural.</figcaption></figure>
-        <figure><img src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/interior-suite.png" alt="Suíte premium da YUME" /><figcaption>Suíte íntima para desacelerar.</figcaption></figure>
-        <figure><img src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/interior-kitchen.png" alt="Área interna funcional da YUME" /><figcaption>Função sem abrir mão da estética.</figcaption></figure>
-      </div>
-    </section>
-
     <section class="models" id="modelos">
       <div class="section-heading narrow centered">
         <p class="eyebrow">Duas plantas</p>
@@ -114,8 +73,15 @@
       </div>
 
       <div class="model-stage">
-        <figure class="model-render">
-          <img src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/model-studio.png" alt="Render externo YUME Studio" data-model-render />
+        <figure class="model-render model-carousel" aria-label="Galeria de imagens YUME" tabindex="0" data-model-carousel>
+          <img src="assets/carrossel-modelos/yume-carrossel-01-externa.jpg" alt="Vista externa YUME 1" data-carousel-image />
+          <button class="carousel-control prev" type="button" aria-label="Imagem anterior" data-carousel-prev>‹</button>
+          <button class="carousel-control next" type="button" aria-label="Próxima imagem" data-carousel-next>›</button>
+          <div class="carousel-meta" aria-live="polite">
+            <span data-carousel-label>Imagem 01</span>
+            <strong data-carousel-title>Parte externa</strong>
+          </div>
+          <div class="carousel-dots" aria-label="Selecionar imagem" data-carousel-dots></div>
         </figure>
         <article class="model-info">
           <p class="eyebrow" data-model-label>YUME Studio • 22m²</p>
@@ -128,9 +94,50 @@
           </ul>
         </article>
         <figure class="model-plan">
-          <img src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/yume-studio-planta.jpg" alt="Planta YUME Studio 22m²" data-model-plan />
+          <img src="assets/yume-studio-planta.jpg" alt="Planta YUME Studio 22m²" data-model-plan />
           <figcaption data-model-caption>Planta YUME Studio — 22m².</figcaption>
         </figure>
+      </div>
+    </section>
+
+    <section class="video-section" id="video">
+      <div class="section-heading">
+        <p class="eyebrow">Por dentro do módulo</p>
+        <h2>Veja como a YUME transforma poucos metros em uma experiência completa.</h2>
+      </div>
+      <div class="video-frame">
+        <video controls playsinline preload="metadata" poster="assets/interior-living.png">
+          <source src="assets/WhatsApp Video 2026-02-26 at 11.56.58.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+      </div>
+    </section>
+
+    <section class="interiors">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Interiores</p>
+        <h2>Luxo discreto: luz, madeira, textura e silêncio.</h2>
+      </div>
+      <div class="interior-grid">
+        <figure class="wide"><img src="assets/interior-living.png" alt="Living premium da YUME" /><figcaption>Living acolhedor com materialidade natural.</figcaption></figure>
+        <figure><img src="assets/interior-suite.png" alt="Suíte premium da YUME" /><figcaption>Suíte íntima para desacelerar.</figcaption></figure>
+        <figure><img src="assets/interior-kitchen.png" alt="Área interna funcional da YUME" /><figcaption>Função sem abrir mão da estética.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="signature">
+      <figure class="signature-image">
+        <img src="assets/exterior-signature.png" alt="Exterior de módulo YUME com assinatura arquitetônica" />
+      </figure>
+      <div class="signature-copy">
+        <p class="eyebrow">Arquitetura como assinatura</p>
+        <h2>Um produto que fotografa bem, hospeda bem e envelhece com elegância.</h2>
+        <div class="pill-list">
+          <span>Steel frame</span>
+          <span>Acabamento premium</span>
+          <span>Operação Airbnb</span>
+          <span>Design autoral</span>
+        </div>
       </div>
     </section>
 
@@ -158,10 +165,10 @@
         <h2>Atmosfera de refúgio, acabamento de produto premium.</h2>
       </div>
       <div class="gallery-grid">
-        <img src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/exterior-collection.png" alt="Coleção de módulos YUME" />
-        <img src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/exterior-retreat.png" alt="YUME integrada à natureza" />
-        <img src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/interior-suite-detail.png" alt="Detalhe interno da suíte YUME" />
-        <img src="https://raw.githubusercontent.com/giovannibassani2026/yume-site/main/assets/model-suite.png" alt="Render externo YUME Suite" />
+        <img src="assets/exterior-collection.png" alt="Coleção de módulos YUME" />
+        <img src="assets/exterior-retreat.png" alt="YUME integrada à natureza" />
+        <img src="assets/interior-suite-detail.png" alt="Detalhe interno da suíte YUME" />
+        <img src="assets/model-suite.png" alt="Render externo YUME Suite" />
       </div>
     </section>
 
@@ -192,6 +199,6 @@
     <span>Tiny houses modulares de luxo para viver, hospedar e investir.</span>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=carousel-labels-42dd81f"></script>
 </body>
 </html>
