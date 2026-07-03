@@ -24,8 +24,8 @@ p, h1, h2, h3 { margin-top: 0; }
 .site-header { position: fixed; inset: 0 0 auto; z-index: 50; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 22px clamp(20px,5vw,76px); transition: .25s ease; background: linear-gradient(180deg, rgba(7,8,7,.42), rgba(7,8,7,0)); }
 .site-header.is-scrolled { padding-block: 14px; background: rgba(7,8,7,.72); backdrop-filter: blur(20px); border-bottom: 1px solid var(--line); }
 .brand { display: grid; gap: 2px; color: var(--pink); font-family: 'Playfair Display', Georgia, serif; font-weight: 800; letter-spacing: .28em; text-transform: uppercase; }
-.brand-logo { align-items: center; width: clamp(104px, 10vw, 152px); filter: drop-shadow(0 10px 26px rgba(255,27,92,.28)); }
-.brand-logo img { width: 100%; height: auto; object-fit: contain; }
+.brand-logo { align-items: center; width: clamp(104px, 10vw, 152px); }
+.brand-logo img { width: 100%; height: auto; object-fit: contain; filter: brightness(0) invert(1) drop-shadow(0 10px 24px rgba(0,0,0,.34)); }
 .brand small { color: rgba(255,255,255,.78); font-family: Inter, system-ui, sans-serif; font-size: .56rem; text-transform: uppercase; letter-spacing: .26em; }
 .nav { display: flex; align-items: center; gap: 24px; color: rgba(255,255,255,.9); font-size: .9rem; font-weight: 800; text-shadow: 0 2px 12px rgba(0,0,0,.28); }
 .nav a:hover, .nav-cta { color: var(--pink-soft); }
@@ -159,5 +159,5 @@ footer span { color: var(--muted); }
   footer { flex-direction: column; }
 }
 
-.footer-logo { color: var(--pink); font-family: 'Playfair Display', Georgia, serif; letter-spacing: .28em; font-weight: 800; }
+.footer-logo { width: clamp(104px, 10vw, 150px); height: auto; object-fit: contain; filter: brightness(0) invert(1) drop-shadow(0 8px 20px rgba(0,0,0,.28)); }
 ::selection { color: var(--rose-ink); background: var(--pink-soft); }
