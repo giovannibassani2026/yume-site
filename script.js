@@ -99,9 +99,9 @@ const carouselSlides = {
     },
     {
       src: 'assets/carrossel-modelos/yume-carrossel-05-interna.jpg',
-      alt: 'Interior YUME Studio 1',
+      alt: 'Vista externa YUME Studio 5',
       label: 'Imagem 05',
-      title: 'Studio • interior'
+      title: 'Studio • parte externa'
     },
     {
       src: 'assets/carrossel-modelos/yume-carrossel-06-interna.jpg',
@@ -161,9 +161,9 @@ const carouselSlides = {
     },
     {
       src: 'assets/carrossel-suite-27m/yume-suite-05-interna.jpg',
-      alt: 'Interior YUME Suite 27m² 1',
+      alt: 'Vista externa YUME Suite 27m² 5',
       label: 'Imagem 05',
-      title: 'Suite 27m² • interior'
+      title: 'Suite 27m² • parte externa'
     },
     {
       src: 'assets/carrossel-suite-27m/yume-suite-06-interna.jpg',
