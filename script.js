@@ -14,7 +14,7 @@ const models = {
     description: 'Uma unidade compacta para quem quer impacto visual, operação simples e experiência premium em metragem inteligente.',
     render: 'assets/model-studio.png',
     renderAlt: 'Render externo YUME Studio',
-    plan: 'assets/yume-studio-planta.jpg',
+    plan: 'assets/cabana-suite-deck-22m.jpg',
     planAlt: 'Planta YUME Studio 22m²',
     caption: 'Planta YUME Studio — 22m².',
     features: [
@@ -29,7 +29,7 @@ const models = {
     description: 'A versão com presença ampliada: suíte, estar e cozinha integrados para uma experiência mais confortável, íntima e memorável.',
     render: 'assets/model-suite.png',
     renderAlt: 'Render externo YUME Suite',
-    plan: 'assets/yume-suite-planta.png',
+    plan: 'assets/cabana-completa-deck-27m.jpg',
     planAlt: 'Planta YUME Suite 27m²',
     caption: 'Planta YUME Suite — 27m².',
     features: [
