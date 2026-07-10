@@ -16,7 +16,6 @@ const models = {
     renderAlt: 'Render externo YUME Studio',
     plan: 'assets/cabana-suite-deck-22m.jpg',
     planAlt: 'Planta YUME Studio 22m²',
-    caption: 'Planta YUME Studio — 22m².',
     features: [
       'Planta otimizada para hospedagens e terrenos menores.',
       'Deck integrado para ampliar a sensação de espaço.',
@@ -31,7 +30,6 @@ const models = {
     renderAlt: 'Render externo YUME Suite',
     plan: 'assets/cabana-completa-deck-27m.jpg',
     planAlt: 'Planta YUME Suite 27m²',
-    caption: 'Planta YUME Suite — 27m².',
     features: [
       'Suíte com estar e cozinha integrados.',
       'Mais conforto para long stays, casal ou produto flagship.',
@@ -46,7 +44,6 @@ const title = document.querySelector('[data-model-title]');
 const description = document.querySelector('[data-model-description]');
 const features = document.querySelector('[data-model-features]');
 const plan = document.querySelector('[data-model-plan]');
-const caption = document.querySelector('[data-model-caption]');
 
 function selectModel(key) {
   const model = models[key];
@@ -63,7 +60,6 @@ function selectModel(key) {
   features.innerHTML = model.features.map(item => `<li>${item}</li>`).join('');
   plan.src = model.plan;
   plan.alt = model.planAlt;
-  caption.textContent = model.caption;
   showCarouselSlide(0);
 }
 
