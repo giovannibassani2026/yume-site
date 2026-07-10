@@ -12,8 +12,8 @@ Colocar na pasta `assets/`:
 
 - `Home_inicial.png` — imagem de impacto da home/hero.
 - `WhatsApp Video 2026-02-26 at 11.56.58.mp4` — vídeo do módulo.
-- `yume-studio-planta.png` — planta Yume Studio 22m².
-- `yume-suite-planta.png` — planta Yume Suite 27m².
+- `cabana-suite-deck-22m.jpg` — planta YUME Studio 22m² / CABANA SUITE_DECK.
+- `cabana-completa-deck-27m.jpg` — planta YUME Suite 27m² / CABANA COMPLETA_DECK.
 
 ## Rodar localmente
 
