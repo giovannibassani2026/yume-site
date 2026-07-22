@@ -9,3 +9,6 @@ assets/base-referencias/_incoming/
 
 # local validation screenshots
 assets/base-referencias/yume-home-screenshot-*.png
+
+# large video files are hosted as GitHub release assets
+assets/videos/*.mp4
